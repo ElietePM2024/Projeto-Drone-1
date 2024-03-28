@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+div{
+ width: 100%px;
+    height: 50vh;
+}
+a:hover{
+    color:blue;
+}
+.link{
+    font-weight:169px;
+    font-size:20px;
+    line-height:36px;
+    text-align:center;
+    letter-spacing:0,8px;
+    color:black;
+    margin-right:30px;
+    cursor:pointer;
+    border-radius:62px;
+    border: black 3px;
+    background-color:rgba(126, 252, 0, 0.925); 
+}
+body{
+    background-image:url(cafe.jpg);
+     background-repeat: no-repeat; 
+     background-size:100%;
+     position:relative;
+}
+
+header{
+        margin: 24px
+        
+    }
+    @media screen and (max-width:768px){
+        .link{
+            font-size: 16px;
+            line-height: 30px;
+            margin-right: 10px;
+            
+        }
+
+    }   
+    header{  
+        margin: 12px;    
+    }
+
+@media(max-width:480px);
+    .link{
+        font-size: 14px;
+        line-height: 26px;
+        margin-right: 5px;
+    }
+    header{
+    margin:6px;
+    
+}
