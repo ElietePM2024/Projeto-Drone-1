@@ -20,18 +20,19 @@ a:hover{
     margin-right:30px;
     cursor:pointer;
     border-radius:62px;
+    text-decoration: none;
     border: black 3px;
     background-color:rgba(126, 252, 0, 0.925); 
 }
 body{
-    background-image:url(cafe.jpg);
+    background-image:url(./drone\ original.jpg);
      background-repeat: no-repeat; 
      background-size:100%;
      position:relative;
 }
 
 header{
-        margin: 24px
+        margin: 20px
         
     }
 
@@ -41,8 +42,8 @@ header{
         right: 15px;
         padding: 10px;
         font-family: 'Arial Black', sans-serif;
-        color: white;
-        font-weight: 100;
+        color: #000;
+        font-weight:100%;
     }
 
 
